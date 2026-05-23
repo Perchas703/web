@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dropdown-tem::before{
+    transform: rotate(-90deg);
+}
+
+
+.nav-link{
+    transition: all 0.2s ease;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid gray;
+}
+
+.dropdown-menu{
+    border-radius: 0;
+    border: none;
+    border-bottom: 0 3px 6px rgb(0, 0, 0 .23);
+}
+
+ 
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+    transition: 0.5s all ease;
+}
+
+@media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      transform: translateY(-2%);
+    }
+}
+
+.dropdown-item{
+    color: black;
+}
+
+
+nav{
+    opacity: .9;
+    width: 100%;
+}
+
+.nav-item{
+    color: black;
+    font-weight: 700;
+}
+
+.fa-brands{
+    color: black;
+    margin: 10px;
+    align-items: center;
+    transition: all 500ms ease;
+}
+
+.fa-brands:hover{
+    color: gray;
+    transform: translateY(-2%);
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008000;
+    padding-top: 20px;
+    height: 160px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.PN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    width: 100%;
+    background: #f6f6f6;
+    color: grey;
+}
+
+.PN-Link{
+    text-decoration: none;
+    padding-right: 5px;
+    color: grey;
+    transition: 1s ease;
+}
+
+.PN-Link:hover{
+    color: rgb(2, 129, 2);
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.fa-solid{
+    color: gray;
+    font-size: 30px;
+    float: left;
+    padding-right: 28px;
+}
+
+.brands{
+    color: gray;
+    font-size: 35px;
+    float: left;
+    padding-right: 10px;
+}
+
+.icon-face{
+    color: gray;
+    font-size: 35px;
+    float: left;
+    padding-right: 10px
+}
+
+.icon-text{
+    padding-left: 45px;
+}
+
+.P1{
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.tittle{
+    width: 50%;
+}
+
+.Text-tittle{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.Tittle-CT{
+    padding-bottom: 30px;
+}
+
+.P2{
+    font-size: 15px;
+    color: gray;
+}
+
+.I-link{
+    text-decoration: none;
+}
+
+footer{
+    padding: 20px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-2 img{
+    height: 30px;
+}
+
+.Instituto{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    height: 5px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 15px;
+}
+

@@ -1,0 +1,92 @@
+.carta{
+    position: relative;
+    width: 350px;
+    height: 480px;
+    margin-bottom: 100px;
+    margin-right: 350px;
+    display: block;
+}
+
+.carta .Aterrizaje-carta {
+    position: relative;
+    width: 350px;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.carta .Aterrizaje-carta  h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.carta .informacion-carta {
+    position: absolute;
+    width: 350px;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+
+.carta:hover .informacion-carta {
+    left: 100%;
+}
+
+
+.informacion-carta.cabeza .titulo {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(2, 129, 2);
+}
+
+.informacion-carta .cabeza .descripcion {
+    display: flex;
+    gap: 10px;
+}
+
+.informacion-carta .cabeza .descripcion .articulo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.informacion-carta.cabeza .description .articulo i {
+    color: rgb(2, 129, 2);
+    font-size: 15px;
+}
+
+.informacion-carta .cabeza .descripcion .articulo p {
+    font-size: 13px;
+}
+
+.informacion-carta .contenido  {
+    margin-top: 15px;
+}
+
+.informacion-carta .contenido .lista {
+    padding: 10px 15px;
+}
+
+.informacion-carta .contenido  .lista li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contenido{
+    text-align: justify;
+}
+
